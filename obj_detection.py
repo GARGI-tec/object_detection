@@ -16,7 +16,7 @@ root.title("Object Detection Application")
 def show_about():
     messagebox.showinfo("About", "This application detects objects using a webcam.")
 # Load background image
-bg_image = Image.open("C:\\Users\\hp\\Downloads\\think_pic.jpeg")  # Provide the path to your background image
+bg_image = Image.open("think_pic.jpeg")  # Provide the path to your background image
 
 # Resize the image to fit the window size
 bg_image = bg_image.resize((root.winfo_screenwidth(), root.winfo_screenheight()), Image.ANTIALIAS)
